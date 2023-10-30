@@ -9,7 +9,7 @@ const Navbar = ({ setShow, size }) => {
           <span>
             <i className="fas fa-cart-plus"></i>
           </span>
-          <span>{size}</span>
+          <span className="cart_size">{ size}</span>
         </div>
       </div>
     </nav>
